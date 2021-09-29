@@ -4,6 +4,8 @@
   "description": "slack reporter for playwright framework",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "repository": "git@github.com:dineshk-qa/playwright.slack.reporter.git",
+  "homepage": "https://github.com/dineshk-qa/playwright.slack.reporter",
   "scripts": {
     "build": "tsc",
     "test": "jest --config jestconfig.json",
@@ -19,6 +21,9 @@
   ],
   "author": "Dinesh Kumar",
   "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@types/app-root-path": "^1.2.4",
     "app-root-path": "^3.0.0",

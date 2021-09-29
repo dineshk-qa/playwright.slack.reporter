@@ -4,7 +4,7 @@ import slackPayload from './slack.payload';
 /**
  * Expects result file to be called "results.json"
  * webhookUrl: slack webhook url
- * testEnv: To publish in Slack where your results are run
+ * testEnv: To publish in Slack in which env your tests are run
  */
 async function slackReport(webhookUrl: string, testEnv:string) {
   const options: AxiosRequestConfig = {

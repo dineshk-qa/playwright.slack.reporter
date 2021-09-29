@@ -1,6 +1,6 @@
 {
   "name": "@zen-qa/playwright.slack.reporter",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "slack reporter for playwright framework",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
